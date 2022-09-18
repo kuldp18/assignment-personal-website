@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nabla&display=swap');
+
+
+main.hero {
+    flex-direction: column;
+    align-items: center;
+}
+
+main.hero h1 {
+    font-size: 3rem;
+}
+
+.hero th,
+.hero tr,
+.hero td {
+    border: 2px solid black;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.hero th {
+    background-color: rgb(220, 220, 65);
+}
+
+.hero td {
+    background-color: rgb(215, 214, 214);
+}
