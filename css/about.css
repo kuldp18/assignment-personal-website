@@ -1,0 +1,21 @@
+main.hero {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero h3 {
+    font-size: 2rem;
+}
+
+.hero ul li {
+    font-size: 1.5rem;
+}
+
+.hero ul li:hover {
+    color: rgb(236, 236, 50);
+    cursor: pointer;
+}
