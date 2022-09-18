@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nabla&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main.hero {
+    flex-direction: column;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.hero form input,
+.hero form textarea {
+    font-size: 1.3rem;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+.hero form input[type="submit"] {
+    color: black;
+    background-color: yellow;
+    transition: all 0.3s ease-in;
+}
+
+.hero form input[type="submit"]:hover {
+    color: black;
+    background-color: rgb(210, 210, 65);
+    cursor: pointer;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-align: center;
+}
